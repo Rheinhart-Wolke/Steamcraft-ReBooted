@@ -3,6 +3,7 @@ package com.Saunderson.steamcraftrb.init;
 import com.Saunderson.steamcraftrb.Item.*;
 import com.Saunderson.steamcraftrb.reference.Reference;
 import cpw.mods.fml.common.registry.GameRegistry;
+import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 
 @GameRegistry.ObjectHolder(Reference.MOD_ID)
@@ -20,6 +21,13 @@ public class ModItems
     public static final ItemSCRB ingotCastIron = new ItemIngotCastIron();
     public static final ItemSCRB kettle = new ItemKettle();
     public static final ItemSCRB lightBulb = new ItemLightBulb();
+    public static final ItemSCRB musketCartridge = new ItemMusketCartridge();
+    public static final ItemSCRB obsidianSlate = new ItemObsidianSlate();
+    public static final ItemSCRB percussionCap = new ItemPercussionCap();
+    public static final ItemSCRB percussionLock = new ItemPercussionLock();
+    public static final ItemSCRB phosphorus = new ItemPhosphorus();
+    public static final ItemSCRB reactorCore = new ItemReactorCore();
+    public static final ItemSCRB rifledBarrel = new ItemRifledBarrel();
 
     public static final ItemSteamSword steamSword = new ItemSteamSword();
 
@@ -38,5 +46,12 @@ public class ModItems
         GameRegistry.registerItem(ingotCastIron, "ingotCastIron");
         GameRegistry.registerItem(kettle, "kettle");
         GameRegistry.registerItem(lightBulb, "lightBulb");
+        GameRegistry.registerItem(musketCartridge, "musketCartridge");
+        GameRegistry.registerItem(obsidianSlate, "obsidianSlate");
+        GameRegistry.registerItem(percussionCap, "percussionCap");
+        GameRegistry.registerItem(percussionLock,  "percussionLock");
+        GameRegistry.registerItem(phosphorus, "phosphorus");
+        GameRegistry.registerItem(reactorCore, "reactorCore");
+        GameRegistry.registerItem(rifledBarrel, "rifledBarrel");
     }
 }
