@@ -1,5 +1,5 @@
 
-itemGroup.steamcraftrb=Steamcraft-ReBooted
+itemGroup.steamcraftrb=Steamcraft-ReBooted [WIP]
 
 # Items
 item.steamcraftrb:copperDust.name= Copper Dust
@@ -12,7 +12,7 @@ item.steamcraftrb:etherium.name=Etherium
 item.steamcraftrb:ingotBrass.name=Brass Ingot
 item.steamcraftrb:ingotCastIron.name=Cast Iron Ingot
 item.steamcraftrb:kettle.name=Kettle
-item.steamcraftrb:lightbulb.name=Lightbulb
+item.steamcraftrb:lightBulb.name=Light Bulb
 item.steamcraftrb:musketCartridge.name=Musket Cartridge
 item.steamcraftrb:obsidianSlate.name=Obsidian Slate
 item.steamcraftrb:percussionCap.name=Percussion Cap
@@ -31,8 +31,16 @@ item.steamcraftrb:uraniumStone.name=Uranium Stone
 item.steamcraftrb:wirelessLamp.name=Wireless Lamp
 item.steamcraftrb:woodenStock.name=Wooden Stock
 
+# Blocks
+
+
+# TileEntities
+
+
 # Tools
 
 
 #Weapons
 item.steamcraftrb:steamSword.name=Steam Sword
+
+# Armour
