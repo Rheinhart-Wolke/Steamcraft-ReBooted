@@ -7,14 +7,18 @@ import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
+import net.minecraft.item.ItemTool;
 
-public class ItemSCRB extends Item
+import java.util.Set;
+
+public class ItemToolSCRB extends ItemTool
 {
-    public ItemSCRB()
+    public ItemToolSCRB(float damageVsEntity, Item.ToolMaterial toolMaterial, Set blocksEffectiveAgainst)
     {
-        super();
+        super(damageVsEntity, toolMaterial, blocksEffectiveAgainst);
         this.setCreativeTab(CreativeTabSCRB.SCRB_TAB);
-
+        this.setNoRepair();
+        this.maxStackSize = 1;
     }
 
     @Override
