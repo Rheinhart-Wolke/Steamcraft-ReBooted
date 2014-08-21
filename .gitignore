@@ -218,3 +218,21 @@ pip-log.txt
 .ipr
 .iml
 .iws
+
++## gradle
++/.gradle
++/build
++/gradle
++/gradlew
++/gradlew.bat
++## ForgeGradle
++/run
++## eclipse
++/eclipse
++/.settings
++/.metadata
++/.classpath
++/.project
++/bin
++## general
++/*.txt

@@ -32,7 +32,8 @@ item.steamcraftrb:wirelessLamp.name=Wireless Lamp
 item.steamcraftrb:woodenStock.name=Wooden Stock
 
 # Blocks
-
+tile.steamcraftrb:brassBlock.name=Brass Block
+tile.steamcraftrb:borniteOre.name=Bornite Ore
 
 # TileEntities
 

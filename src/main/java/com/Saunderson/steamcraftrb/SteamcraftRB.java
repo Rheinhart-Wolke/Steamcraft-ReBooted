@@ -2,7 +2,9 @@ package com.Saunderson.steamcraftrb;
 
 
 import com.Saunderson.steamcraftrb.handler.ConfigurationHandler;
+import com.Saunderson.steamcraftrb.init.ModBlocks;
 import com.Saunderson.steamcraftrb.init.ModItems;
+import com.Saunderson.steamcraftrb.init.Recipes;
 import com.Saunderson.steamcraftrb.proxy.IProxy;
 import com.Saunderson.steamcraftrb.reference.Reference;
 import com.Saunderson.steamcraftrb.utility.LogHelper;
@@ -28,6 +30,7 @@ public class SteamcraftRB
         // Blocks, Items, Server Networking, ext..
         ConfigurationHandler.init(event.getSuggestedConfigurationFile());
         ModItems.init();
+        ModBlocks.init();
         LogHelper.info("Pre Initialization Complete!");
     }
 
@@ -35,6 +38,7 @@ public class SteamcraftRB
     public void init(FMLInitializationEvent event)
     {
         // recipes, gui's, tile entities, ext..
+        Recipes.init();
         LogHelper.info("Initialization Complete!");
     }
 
