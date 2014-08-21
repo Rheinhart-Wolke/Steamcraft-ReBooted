@@ -30,6 +30,8 @@ item.steamcraftrb:uraniumPellet.name= Uranium Pellet
 item.steamcraftrb:uraniumStone.name=Uranium Stone
 item.steamcraftrb:wirelessLamp.name=Wireless Lamp
 item.steamcraftrb:woodenStock.name=Wooden Stock
+item.steamcraftrb:kettleCold.name=Cold Kettle
+item.steamcraftrb:kettleHot.name=Hot Kettle
 
 # Blocks
 tile.steamcraftrb:brassBlock.name=Brass Block

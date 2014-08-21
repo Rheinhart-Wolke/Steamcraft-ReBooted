@@ -1,27 +1,39 @@
-[20:16:28] [main/INFO]: Setting user: ForgeDevName
-[20:16:30] [Client thread/INFO]: LWJGL Version: 2.9.1
-[20:16:36] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Steamcraft-ReBooted
-[20:16:37] [Sound Library Loader/INFO]: Sound engine started
-[20:16:40] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[20:16:40] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[20:16:40] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Steamcraft-ReBooted
-[20:16:40] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[20:16:41] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[20:16:41] [Sound Library Loader/INFO]: Sound engine started
-[20:16:47] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[20:16:47] [Server thread/INFO]: Generating keypair
-[20:16:47] [Server thread/INFO]: Preparing start region for level 0
-[20:16:48] [Server thread/INFO]: Changing view distance to 12, from 10
-[20:16:49] [Server thread/INFO]: ForgeDevName[local:E:c749797a] logged in with entity id 1 at (926.5399969109435, 56.0, -444.32600950302975)
-[20:16:49] [Server thread/INFO]: ForgeDevName joined the game
-[20:24:03] [Server thread/INFO]: Saving and pausing game...
-[20:24:03] [Server thread/INFO]: Saving chunks for level 'Item & Block Tests'/Overworld
-[20:24:03] [Server thread/INFO]: Saving chunks for level 'Item & Block Tests'/Nether
-[20:24:03] [Server thread/INFO]: Saving chunks for level 'Item & Block Tests'/The End
-[20:24:05] [Server thread/INFO]: Stopping server
-[20:24:05] [Server thread/INFO]: Saving players
-[20:24:05] [Server thread/INFO]: Saving worlds
-[20:24:05] [Server thread/INFO]: Saving chunks for level 'Item & Block Tests'/Overworld
-[20:24:05] [Server thread/INFO]: Saving chunks for level 'Item & Block Tests'/Nether
-[20:24:05] [Server thread/INFO]: Saving chunks for level 'Item & Block Tests'/The End
-[20:24:06] [Client thread/INFO]: Stopping!
+[22:45:21] [main/INFO]: Setting user: ForgeDevName
+[22:45:22] [Client thread/INFO]: LWJGL Version: 2.9.1
+[22:45:29] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Steamcraft-ReBooted
+[22:45:30] [Sound Library Loader/INFO]: Sound engine started
+[22:45:32] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[22:45:32] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[22:45:33] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Steamcraft-ReBooted
+[22:45:33] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[22:45:33] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[22:45:34] [Sound Library Loader/INFO]: Sound engine started
+[22:45:41] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[22:45:41] [Server thread/INFO]: Generating keypair
+[22:45:41] [Server thread/INFO]: Preparing start region for level 0
+[22:45:42] [Server thread/INFO]: Changing view distance to 12, from 10
+[22:45:43] [Server thread/INFO]: ForgeDevName[local:E:6fa3bb76] logged in with entity id 31 at (927.7461857830538, 56.0, -443.67948267903574)
+[22:45:43] [Server thread/INFO]: ForgeDevName joined the game
+[22:46:08] [Server thread/INFO]: Saving and pausing game...
+[22:46:08] [Server thread/INFO]: Saving chunks for level 'Item & Block Tests'/Overworld
+[22:46:08] [Server thread/INFO]: Saving chunks for level 'Item & Block Tests'/Nether
+[22:46:08] [Server thread/INFO]: Saving chunks for level 'Item & Block Tests'/The End
+[22:48:32] [Server thread/INFO]: Saving and pausing game...
+[22:48:32] [Server thread/INFO]: Saving chunks for level 'Item & Block Tests'/Overworld
+[22:48:32] [Server thread/INFO]: Saving chunks for level 'Item & Block Tests'/Nether
+[22:48:32] [Server thread/INFO]: Saving chunks for level 'Item & Block Tests'/The End
+[22:48:37] [Server thread/INFO]: Saving and pausing game...
+[22:48:37] [Server thread/INFO]: Saving chunks for level 'Item & Block Tests'/Overworld
+[22:48:37] [Server thread/INFO]: Saving chunks for level 'Item & Block Tests'/Nether
+[22:48:37] [Server thread/INFO]: Saving chunks for level 'Item & Block Tests'/The End
+[22:58:36] [Server thread/INFO]: Saving and pausing game...
+[22:58:36] [Server thread/INFO]: Saving chunks for level 'Item & Block Tests'/Overworld
+[22:58:36] [Server thread/INFO]: Saving chunks for level 'Item & Block Tests'/Nether
+[22:58:36] [Server thread/INFO]: Saving chunks for level 'Item & Block Tests'/The End
+[22:58:36] [Server thread/INFO]: Stopping server
+[22:58:36] [Server thread/INFO]: Saving players
+[22:58:36] [Server thread/INFO]: Saving worlds
+[22:58:36] [Server thread/INFO]: Saving chunks for level 'Item & Block Tests'/Overworld
+[22:58:36] [Server thread/INFO]: Saving chunks for level 'Item & Block Tests'/Nether
+[22:58:36] [Server thread/INFO]: Saving chunks for level 'Item & Block Tests'/The End
+[22:58:37] [Client thread/INFO]: Stopping!

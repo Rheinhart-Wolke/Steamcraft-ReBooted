@@ -3,8 +3,6 @@ package com.Saunderson.steamcraftrb.init;
 import com.Saunderson.steamcraftrb.Item.*;
 import com.Saunderson.steamcraftrb.reference.Reference;
 import cpw.mods.fml.common.registry.GameRegistry;
-import net.minecraft.init.Items;
-import net.minecraft.item.Item;
 
 @GameRegistry.ObjectHolder(Reference.MOD_ID)
 public class ModItems
@@ -37,6 +35,8 @@ public class ModItems
     public static final ItemSCRB uraniumStone = new ItemUraniumStone();
     public static final ItemSCRB wirelessLamp = new ItemWirelessLamp();
     public static final ItemSCRB woodenStock = new ItemWoodenStock();
+    public static final ItemSCRB kettleCold = new ItemKettleCold();
+    public static final ItemSCRB kettleHot = new ItemKettleHot();
 
     public static final ItemSteamSword steamSword = new ItemSteamSword();
 
@@ -71,5 +71,7 @@ public class ModItems
         GameRegistry.registerItem(uraniumStone, "uraniumStone");
         GameRegistry.registerItem(wirelessLamp, "wirelessLamp");
         GameRegistry.registerItem(woodenStock, "woodenStock");
+        GameRegistry.registerItem(kettleCold, "kettleCold");
+        GameRegistry.registerItem(kettleHot, "kettleHot");
     }
 }
