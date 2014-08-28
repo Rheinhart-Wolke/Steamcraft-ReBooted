@@ -1,6 +1,7 @@
 package com.Saunderson.steamcraftrb.init;
 
 import com.Saunderson.steamcraftrb.Item.*;
+import com.Saunderson.steamcraftrb.reference.Names;
 import com.Saunderson.steamcraftrb.reference.Reference;
 import cpw.mods.fml.common.registry.GameRegistry;
 
@@ -9,8 +10,7 @@ public class ModItems
 {
     public static final ItemSCRB copperDust = new ItemCopperDust();
     public static final ItemSCRB copperWire = new ItemCopperWire();
-    public static final ItemSCRB coreDrill = new ItemCoreDrill();
-    public static final ItemSCRB coreDrillBase = new ItemCoreDrillBase();
+    public static final ItemSCRB drillBase = new ItemDrillBase();
     public static final ItemSCRB diode = new ItemDiode();
     public static final ItemSCRB electricLamp = new ItemElectricLamp();
     public static final ItemSCRB etherium = new ItemEtherium();
@@ -38,15 +38,22 @@ public class ModItems
     public static final ItemSCRB kettleCold = new ItemKettleCold();
     public static final ItemSCRB kettleHot = new ItemKettleHot();
 
+    public static final ItemSCRB tier = new ItemTier();
+
     public static final ItemSteamSword steamSword = new ItemSteamSword();
+    public static final ItemEtheriumSword etheriumSword = new ItemEtheriumSword();
+    public static final ItemEtheriumPickaxe etheriumPickaxe = new ItemEtheriumPickaxe();
+    public static final ItemEtheriumHoe etheriumHoe = new ItemEtheriumHoe();
+    public static final ItemEtheriumAxe etheriumAxe = new ItemEtheriumAxe();
+    public static final ItemEtheriumShovel etheriumShovel = new ItemEtheriumShovel();
+    public static final ItemEtheriumDrill etheriumDrill = new ItemEtheriumDrill();
 
     public static void init()
     {
         GameRegistry.registerItem(steamSword, "steamSword");
         GameRegistry.registerItem(copperDust, "copperDust");
         GameRegistry.registerItem(copperWire, "copperWire");
-        GameRegistry.registerItem(coreDrill, "coreDrill");
-        GameRegistry.registerItem(coreDrillBase, "coreDrillBase");
+        GameRegistry.registerItem(drillBase, "drillBase");
         GameRegistry.registerItem(diode, "diode");
         GameRegistry.registerItem(electricLamp, "electricLamp");
         GameRegistry.registerItem(etherium, "etherium");
@@ -73,5 +80,13 @@ public class ModItems
         GameRegistry.registerItem(woodenStock, "woodenStock");
         GameRegistry.registerItem(kettleCold, "kettleCold");
         GameRegistry.registerItem(kettleHot, "kettleHot");
+        GameRegistry.registerItem(tier, Names.Items.TIER);
+
+        GameRegistry.registerItem(etheriumSword, "etheriumSword");
+        GameRegistry.registerItem(etheriumPickaxe, "etheriumPickaxe");
+        GameRegistry.registerItem(etheriumAxe, "etheriumAxe");
+        GameRegistry.registerItem(etheriumHoe, "etheriumHoe");
+        GameRegistry.registerItem(etheriumShovel, "etheriumShovel");
+        GameRegistry.registerItem(etheriumDrill, "etheriumDrill");
     }
 }

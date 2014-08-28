@@ -2,21 +2,27 @@ package com.Saunderson.steamcraftrb.Item;
 
 import com.Saunderson.steamcraftrb.creativetab.CreativeTabSCRB;
 import com.Saunderson.steamcraftrb.reference.Materials;
+import com.Saunderson.steamcraftrb.reference.Names;
 import com.Saunderson.steamcraftrb.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
+import net.minecraft.block.Block;
 import net.minecraft.client.renderer.texture.IIconRegister;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemPickaxe;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemSword;
+import net.minecraftforge.common.ForgeHooks;
+import net.minecraftforge.common.util.EnumHelper;
 
-public class ItemSteamSword extends ItemSword
+public class ItemEtheriumDrill extends ItemPickaxe
 {
-    public ItemSteamSword()
+    public ItemEtheriumDrill()
     {
-        super(Materials.Tools.STEAM_TIER);
-        this.setUnlocalizedName("steamSword");
-        this.setCreativeTab(CreativeTabSCRB.SCRB_TAB);
+        super(Materials.Tools.ETHERIUM_TIER);
+        this.setUnlocalizedName("etheriumDrill");
         this.maxStackSize = 1;
+        this.efficiencyOnProperMaterial = 24f;
+        this.setCreativeTab(CreativeTabSCRB.SCRB_TAB);
     }
 
     @Override

@@ -3,7 +3,7 @@
   "modid": "SteamcraftRB",
   "name": "Steamcraft-ReBooted",
   "description": "This mod is a continuation project of Proloe's original Steamcraft, since they decided that they could no longer update/maintain their mod, I have taken it upon myself to attempt the continuation of this mod. This continuation is open source with a GPLV3 licence.",
-  "version": "Alpha-1.0",
+  "version": "Alpha-1.1",
   "credits": "Thanks to the original author Proloe for their source code.",
   "logoFile": "assets\steamcraftrb\textures\logo\logo.png",
   "mcversion": "1.7.10",

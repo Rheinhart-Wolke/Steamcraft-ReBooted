@@ -4,8 +4,7 @@ itemGroup.steamcraftrb=Steamcraft-ReBooted [WIP]
 # Items
 item.steamcraftrb:copperDust.name= Copper Dust
 item.steamcraftrb:copperWire.name= Copper Wire
-item.steamcraftrb:coreDrill.name=Core Drill
-item.steamcraftrb:coreDrillBase.name=Core Drill Base
+item.steamcraftrb:drillBase.name=Drill Base
 item.steamcraftrb:diode.name=Diode
 item.steamcraftrb:electricLamp.name=Electric Lamp
 item.steamcraftrb:etherium.name=Etherium
@@ -35,15 +34,23 @@ item.steamcraftrb:kettleHot.name=Hot Kettle
 
 # Blocks
 tile.steamcraftrb:brassBlock.name=Brass Block
-tile.steamcraftrb:borniteOre.name=Bornite Ore
+tile.steamcraftrb:castIronBlock.name=Cast Iron Block
+tile.steamcraftrb:copperOre.name=Copper Ore
+tile.steamcraftrb:etheriumOre.name=Etherium Ore
+tile.steamcraftrb:etheriumBlock.name=Etherium Block
 
 # TileEntities
 
 
 # Tools
-
+item.steamcraftrb:etheriumPickaxe.name=Etherium Pickaxe
+item.steamcraftrb:etheriumShovel.name=Etherium Shovel
+item.steamcraftrb:etheriumHoe.name=Etherium Hoe
+item.steamcraftrb:etheriumAxe.name=Etherium  Axe
+item.steamcraftrb:etheriumDrill.name=Etherium Drill
 
 #Weapons
 item.steamcraftrb:steamSword.name=Steam Sword
+item.steamcraftrb:etheriumSword=Etherium Sword
 
 # Armour
