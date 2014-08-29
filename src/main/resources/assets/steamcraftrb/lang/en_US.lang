@@ -33,11 +33,12 @@ item.steamcraftrb:kettleCold.name=Cold Kettle
 item.steamcraftrb:kettleHot.name=Hot Kettle
 
 # Blocks
-tile.steamcraftrb:brassBlock.name=Brass Block
-tile.steamcraftrb:castIronBlock.name=Cast Iron Block
 tile.steamcraftrb:copperOre.name=Copper Ore
 tile.steamcraftrb:etheriumOre.name=Etherium Ore
 tile.steamcraftrb:etheriumBlock.name=Etherium Block
+tile.steamcraftrb:brassBlock.name=Brass Block
+tile.steamcraftrb:castIronBlock.name=Cast Iron Block
+tile.steamcraftrb:steamFurnace.name=Steam Furnace
 
 # TileEntities
 
@@ -48,6 +49,11 @@ item.steamcraftrb:etheriumShovel.name=Etherium Shovel
 item.steamcraftrb:etheriumHoe.name=Etherium Hoe
 item.steamcraftrb:etheriumAxe.name=Etherium  Axe
 item.steamcraftrb:etheriumDrill.name=Etherium Drill
+item.steamcraftrb:steamPickaxe.name=Steam Pickaxe
+item.steamcraftrb:steamShovel.name=Steam Shovel
+item.steamcraftrb:steamAxe.name=Steam Axe
+item.steamcraftrb:steamHoe.name=Steam Hoe
+item.steamcraftrb:steamDrill.name=Steam Drill
 
 #Weapons
 item.steamcraftrb:steamSword.name=Steam Sword

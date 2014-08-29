@@ -41,6 +41,11 @@ public class ModItems
     public static final ItemSCRB tier = new ItemTier();
 
     public static final ItemSteamSword steamSword = new ItemSteamSword();
+    public static final ItemSteamPickaxe steamPickaxe = new ItemSteamPickaxe();
+    public static final ItemSteamShovel steamShovel = new ItemSteamShovel();
+    public static final ItemSteamAxe steamAxe =  new ItemSteamAxe();
+    public static final ItemSteamHoe steamHoe = new ItemSteamHoe();
+    public static final ItemSteamDrill steamDrill = new ItemSteamDrill();
     public static final ItemEtheriumSword etheriumSword = new ItemEtheriumSword();
     public static final ItemEtheriumPickaxe etheriumPickaxe = new ItemEtheriumPickaxe();
     public static final ItemEtheriumHoe etheriumHoe = new ItemEtheriumHoe();
@@ -50,7 +55,6 @@ public class ModItems
 
     public static void init()
     {
-        GameRegistry.registerItem(steamSword, "steamSword");
         GameRegistry.registerItem(copperDust, "copperDust");
         GameRegistry.registerItem(copperWire, "copperWire");
         GameRegistry.registerItem(drillBase, "drillBase");
@@ -80,6 +84,7 @@ public class ModItems
         GameRegistry.registerItem(woodenStock, "woodenStock");
         GameRegistry.registerItem(kettleCold, "kettleCold");
         GameRegistry.registerItem(kettleHot, "kettleHot");
+
         GameRegistry.registerItem(tier, Names.Items.TIER);
 
         GameRegistry.registerItem(etheriumSword, "etheriumSword");
@@ -88,5 +93,11 @@ public class ModItems
         GameRegistry.registerItem(etheriumHoe, "etheriumHoe");
         GameRegistry.registerItem(etheriumShovel, "etheriumShovel");
         GameRegistry.registerItem(etheriumDrill, "etheriumDrill");
+        GameRegistry.registerItem(steamSword, "steamSword");
+        GameRegistry.registerItem(steamPickaxe, "steamPickaxe");
+        GameRegistry.registerItem(steamShovel, "steamShovel");
+        GameRegistry.registerItem(steamAxe, "steamAxe");
+        GameRegistry.registerItem(steamHoe, "steamHoe");
+        GameRegistry.registerItem(steamDrill, "steamDrill");
     }
 }

@@ -13,7 +13,7 @@ public class Materials
 {
     public static final class Tools
     {
-        public static final Item.ToolMaterial STEAM_TIER = EnumHelper.addToolMaterial(Names.Tiers.STEAM_TIER, 3, 0, 10f, 3.5f, 0);
+        public static final Item.ToolMaterial STEAM_TIER = EnumHelper.addToolMaterial(Names.Tiers.STEAM_TIER, 3, 0, 10f, 3f, 0);
         public static final Item.ToolMaterial ETHERIUM_TIER = EnumHelper.addToolMaterial(Names.Tiers.ETHERIUM_TIER, 3, 4096, 12f, 4f, 15);
     }
 
