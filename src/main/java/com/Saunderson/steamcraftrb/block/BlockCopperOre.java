@@ -1,6 +1,7 @@
 package com.Saunderson.steamcraftrb.block;
 
 
+import com.Saunderson.steamcraftrb.init.ModBlocks;
 import com.Saunderson.steamcraftrb.init.ModItems;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
@@ -18,13 +19,4 @@ public class BlockCopperOre extends BlockSCRB
         this.setBlockName("copperOre");
     }
 
-    @Override
-    public Item getItemDropped(int metadata, Random random, int fortune) {
-        return ModItems.copperDust;
-    }
-
-    public int quantityDropped(Random par1Random)
-    {
-        return 1 + par1Random.nextInt(2);
-    }
 }

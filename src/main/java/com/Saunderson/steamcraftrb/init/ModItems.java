@@ -11,7 +11,6 @@ public class ModItems
     public static final ItemSCRB copperDust = new ItemCopperDust();
     public static final ItemSCRB copperWire = new ItemCopperWire();
     public static final ItemSCRB drillBase = new ItemDrillBase();
-    public static final ItemSCRB diode = new ItemDiode();
     public static final ItemSCRB electricLamp = new ItemElectricLamp();
     public static final ItemSCRB etherium = new ItemEtherium();
     public static final ItemSCRB ingotBrass = new ItemIngotBrass();
@@ -58,7 +57,6 @@ public class ModItems
         GameRegistry.registerItem(copperDust, "copperDust");
         GameRegistry.registerItem(copperWire, "copperWire");
         GameRegistry.registerItem(drillBase, "drillBase");
-        GameRegistry.registerItem(diode, "diode");
         GameRegistry.registerItem(electricLamp, "electricLamp");
         GameRegistry.registerItem(etherium, "etherium");
         GameRegistry.registerItem(ingotBrass, "ingotBrass");

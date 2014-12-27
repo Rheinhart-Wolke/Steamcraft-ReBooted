@@ -9,6 +9,7 @@ public class ModBlocks
 {
     public static final BlockSCRB copperOre = new BlockCopperOre();
     public static final BlockSCRB etheriumOre = new BlockEtheriumOre();
+    public static final BlockSCRB phosphate = new BlockPhosphorus();
 
     public static final BlockSCRB steamFurnace = new BlockSteamFurnace(Material.iron);
 
@@ -20,6 +21,7 @@ public class ModBlocks
     {
         GameRegistry.registerBlock(copperOre, "copperOre");
         GameRegistry.registerBlock(etheriumOre, "etheriumOre");
+        GameRegistry.registerBlock(phosphate, "phosphate");
 
         GameRegistry.registerBlock(steamFurnace, "steamFurnace");
 

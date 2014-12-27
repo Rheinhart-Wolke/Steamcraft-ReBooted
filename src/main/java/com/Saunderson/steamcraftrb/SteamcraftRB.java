@@ -4,6 +4,7 @@ package com.Saunderson.steamcraftrb;
 import com.Saunderson.steamcraftrb.handler.ConfigurationHandler;
 import com.Saunderson.steamcraftrb.init.ModBlocks;
 import com.Saunderson.steamcraftrb.init.ModItems;
+import com.Saunderson.steamcraftrb.init.ModWorldGen;
 import com.Saunderson.steamcraftrb.init.Recipes;
 import com.Saunderson.steamcraftrb.proxy.IProxy;
 import com.Saunderson.steamcraftrb.reference.Reference;
@@ -39,6 +40,7 @@ public class SteamcraftRB
     {
         // recipes, gui's, tile entities, ext..
         Recipes.init();
+        ModWorldGen.init();
         LogHelper.info("Initialization Complete!");
     }
 
