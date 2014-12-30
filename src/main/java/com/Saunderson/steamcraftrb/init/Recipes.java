@@ -35,10 +35,16 @@ public class Recipes
         GameRegistry.addShapelessRecipe(new ItemStack(ModItems.ingotBrass, 9), new ItemStack(ModBlocks.brassBlock));
         GameRegistry.addRecipe(new ItemStack(ModBlocks.castIronBlock), "xxx", "xxx", "xxx", 'x', new ItemStack(ModItems.ingotCastIron));
         GameRegistry.addShapelessRecipe(new ItemStack(ModItems.ingotCastIron, 9), new ItemStack(ModBlocks.castIronBlock));
+        GameRegistry.addRecipe(new ItemStack(ModBlocks.copperBlock), "xxx", "xxx", "xxx", 'x', new ItemStack(ModItems.ingotCopper));
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.ingotCopper, 9), new ItemStack(ModBlocks.copperBlock));
         GameRegistry.addRecipe(new ItemStack(ModBlocks.etheriumBlock), "xxx", "xxx", "xxx", 'x', new ItemStack(ModItems.etherium));
         GameRegistry.addShapelessRecipe(new ItemStack(ModItems.etherium, 9), new ItemStack(ModBlocks.etheriumBlock));
+        GameRegistry.addRecipe(new ItemStack(ModBlocks.zincBlock), "xxx", "xxx", "xxx", 'x', new ItemStack(ModItems.ingotZinc));
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.ingotZinc, 9), new ItemStack(ModBlocks.zincBlock));
         GameRegistry.addRecipe(new ItemStack(ModBlocks.steamFurnace), "xxx", "xbx", "xfx", 'x', new ItemStack(ModItems.ingotBrass), 'b', new ItemStack(Items.bucket), 'f', new ItemStack(Items.bucket));
 
         GameRegistry.addSmelting(new ItemStack(ModItems.kettleCold), new ItemStack(ModItems.kettleHot), 7F);
+        GameRegistry.addSmelting(new ItemStack(ModBlocks.copperOre), new ItemStack(ModItems.ingotCopper), 4F);
+        GameRegistry.addSmelting(new ItemStack(ModBlocks.zincOre), new ItemStack(ModItems.ingotZinc), 4F);
     }
 }

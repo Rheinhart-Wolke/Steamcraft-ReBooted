@@ -1,8 +1,8 @@
-[22:50:48] [main/INFO]: Setting user: ForgeDevName
-[22:50:50] [Client thread/INFO]: LWJGL Version: 2.9.1
-[22:50:55] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Steamcraft-ReBooted
-[22:50:56] [Sound Library Loader/INFO]: Sound engine started
-[22:50:58] [Client thread/ERROR]: Using missing texture, unable to load steamcraftrb:textures/blocks/steamFurnace.png
+[18:43:40] [main/INFO]: Setting user: ForgeDevName
+[18:43:42] [Client thread/INFO]: LWJGL Version: 2.9.1
+[18:43:47] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Steamcraft-ReBooted
+[18:43:48] [Sound Library Loader/INFO]: Sound engine started
+[18:43:50] [Client thread/ERROR]: Using missing texture, unable to load steamcraftrb:textures/blocks/steamFurnace.png
 java.io.FileNotFoundException: steamcraftrb:textures/blocks/steamFurnace.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -27,8 +27,8 @@ java.io.FileNotFoundException: steamcraftrb:textures/blocks/steamFurnace.png
 	at GradleStart.bounce(GradleStart.java:107) [start/:?]
 	at GradleStart.startClient(GradleStart.java:100) [start/:?]
 	at GradleStart.main(GradleStart.java:55) [start/:?]
-[22:50:59] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[22:50:59] [Client thread/ERROR]: Using missing texture, unable to load steamcraftrb:textures/items/tier.png
+[18:43:50] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[18:43:50] [Client thread/ERROR]: Using missing texture, unable to load steamcraftrb:textures/items/tier.png
 java.io.FileNotFoundException: steamcraftrb:textures/items/tier.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -53,9 +53,9 @@ java.io.FileNotFoundException: steamcraftrb:textures/items/tier.png
 	at GradleStart.bounce(GradleStart.java:107) [start/:?]
 	at GradleStart.startClient(GradleStart.java:100) [start/:?]
 	at GradleStart.main(GradleStart.java:55) [start/:?]
-[22:50:59] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[22:50:59] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Steamcraft-ReBooted
-[22:50:59] [Client thread/ERROR]: Using missing texture, unable to load steamcraftrb:textures/items/tier.png
+[18:43:50] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[18:43:50] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Steamcraft-ReBooted
+[18:43:50] [Client thread/ERROR]: Using missing texture, unable to load steamcraftrb:textures/items/tier.png
 java.io.FileNotFoundException: steamcraftrb:textures/items/tier.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -83,8 +83,8 @@ java.io.FileNotFoundException: steamcraftrb:textures/items/tier.png
 	at GradleStart.bounce(GradleStart.java:107) [start/:?]
 	at GradleStart.startClient(GradleStart.java:100) [start/:?]
 	at GradleStart.main(GradleStart.java:55) [start/:?]
-[22:50:59] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[22:50:59] [Client thread/ERROR]: Using missing texture, unable to load steamcraftrb:textures/blocks/steamFurnace.png
+[18:43:50] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[18:43:51] [Client thread/ERROR]: Using missing texture, unable to load steamcraftrb:textures/blocks/steamFurnace.png
 java.io.FileNotFoundException: steamcraftrb:textures/blocks/steamFurnace.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -112,55 +112,34 @@ java.io.FileNotFoundException: steamcraftrb:textures/blocks/steamFurnace.png
 	at GradleStart.bounce(GradleStart.java:107) [start/:?]
 	at GradleStart.startClient(GradleStart.java:100) [start/:?]
 	at GradleStart.main(GradleStart.java:55) [start/:?]
-[22:50:59] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[22:51:00] [Sound Library Loader/INFO]: Sound engine started
-[22:51:08] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[22:51:08] [Server thread/INFO]: Generating keypair
-[22:51:15] [Server thread/INFO]: Preparing start region for level 0
-[22:51:16] [Server thread/INFO]: Changing view distance to 12, from 10
-[22:51:17] [Server thread/INFO]: ForgeDevName[local:E:8a4907e8] logged in with entity id 33 at (926.9993008481149, 56.0, -447.150875628508)
-[22:51:17] [Server thread/INFO]: ForgeDevName joined the game
-[22:53:14] [Server thread/INFO]: [@: Set ForgeDevName's game mode to Survival Mode]
-[22:53:14] [Client thread/INFO]: [CHAT] Your game mode has been updated
-[22:53:14] [Client thread/INFO]: [CHAT] [@: Set ForgeDevName's game mode to Survival Mode]
-[22:53:45] [Server thread/INFO]: [@: Set ForgeDevName's game mode to Survival Mode]
-[22:53:45] [Client thread/INFO]: [CHAT] Your game mode has been updated
-[22:53:45] [Client thread/INFO]: [CHAT] [@: Set ForgeDevName's game mode to Survival Mode]
-[22:53:48] [Server thread/INFO]: [@: Set ForgeDevName's game mode to Creative Mode]
-[22:53:48] [Client thread/INFO]: [CHAT] Your game mode has been updated
-[22:53:48] [Client thread/INFO]: [CHAT] [@: Set ForgeDevName's game mode to Creative Mode]
-[22:54:03] [Server thread/INFO]: [@: Set ForgeDevName's game mode to Survival Mode]
-[22:54:03] [Client thread/INFO]: [CHAT] Your game mode has been updated
-[22:54:03] [Client thread/INFO]: [CHAT] [@: Set ForgeDevName's game mode to Survival Mode]
-[22:54:09] [Server thread/INFO]: [@: Set ForgeDevName's game mode to Survival Mode]
-[22:54:09] [Client thread/INFO]: [CHAT] Your game mode has been updated
-[22:54:09] [Client thread/INFO]: [CHAT] [@: Set ForgeDevName's game mode to Survival Mode]
-[22:54:09] [Server thread/INFO]: [@: Set ForgeDevName's game mode to Creative Mode]
-[22:54:10] [Client thread/INFO]: [CHAT] Your game mode has been updated
-[22:54:10] [Client thread/INFO]: [CHAT] [@: Set ForgeDevName's game mode to Creative Mode]
-[22:54:31] [Server thread/INFO]: [@: Set ForgeDevName's game mode to Creative Mode]
-[22:54:31] [Client thread/INFO]: [CHAT] Your game mode has been updated
-[22:54:31] [Client thread/INFO]: [CHAT] [@: Set ForgeDevName's game mode to Creative Mode]
-[22:54:42] [Server thread/INFO]: [@: Set ForgeDevName's game mode to Survival Mode]
-[22:54:42] [Client thread/INFO]: [CHAT] Your game mode has been updated
-[22:54:42] [Client thread/INFO]: [CHAT] [@: Set ForgeDevName's game mode to Survival Mode]
-[22:55:15] [Server thread/INFO]: [@: Set ForgeDevName's game mode to Creative Mode]
-[22:55:15] [Client thread/INFO]: [CHAT] Your game mode has been updated
-[22:55:15] [Client thread/INFO]: [CHAT] [@: Set ForgeDevName's game mode to Creative Mode]
-[22:55:58] [Client thread/INFO]: [CHAT] Unknown command. Try /help for a list of commands
-[22:56:04] [Client thread/INFO]: [CHAT] Unknown command. Try /help for a list of commands
-[22:56:10] [Server thread/INFO]: [ForgeDevName: Set the time to 0]
-[22:56:10] [Client thread/INFO]: [CHAT] Set the time to 0
-[22:56:23] [Server thread/INFO]: [ForgeDevName: Set the time to 0]
-[22:56:23] [Client thread/INFO]: [CHAT] Set the time to 0
-[22:57:02] [Server thread/INFO]: Saving and pausing game...
-[22:57:02] [Server thread/INFO]: Saving chunks for level 'Item & Block Tests'/Overworld
-[22:57:02] [Server thread/INFO]: Saving chunks for level 'Item & Block Tests'/Nether
-[22:57:02] [Server thread/INFO]: Saving chunks for level 'Item & Block Tests'/The End
-[22:57:02] [Server thread/INFO]: Stopping server
-[22:57:02] [Server thread/INFO]: Saving players
-[22:57:02] [Server thread/INFO]: Saving worlds
-[22:57:02] [Server thread/INFO]: Saving chunks for level 'Item & Block Tests'/Overworld
-[22:57:02] [Server thread/INFO]: Saving chunks for level 'Item & Block Tests'/Nether
-[22:57:02] [Server thread/INFO]: Saving chunks for level 'Item & Block Tests'/The End
-[22:58:21] [Client thread/INFO]: Stopping!
+[18:43:51] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[18:43:52] [Sound Library Loader/INFO]: Sound engine started
+[18:44:14] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[18:44:14] [Server thread/INFO]: Generating keypair
+[18:44:14] [Server thread/INFO]: Preparing start region for level 0
+[18:44:15] [Server thread/INFO]: Changing view distance to 12, from 10
+[18:44:15] [Server thread/INFO]: ForgeDevName[local:E:d6ea5d42] logged in with entity id 33 at (927.417840922723, 56.0, -444.3934159159542)
+[18:44:15] [Server thread/INFO]: ForgeDevName joined the game
+[18:45:48] [Server thread/INFO]: [@: Set ForgeDevName's game mode to Survival Mode]
+[18:45:49] [Client thread/INFO]: [CHAT] Your game mode has been updated
+[18:45:49] [Client thread/INFO]: [CHAT] [@: Set ForgeDevName's game mode to Survival Mode]
+[18:46:16] [Server thread/INFO]: [@: Set ForgeDevName's game mode to Creative Mode]
+[18:46:16] [Client thread/INFO]: [CHAT] Your game mode has been updated
+[18:46:16] [Client thread/INFO]: [CHAT] [@: Set ForgeDevName's game mode to Creative Mode]
+[18:46:23] [Server thread/INFO]: [@: Set ForgeDevName's game mode to Survival Mode]
+[18:46:23] [Client thread/INFO]: [CHAT] Your game mode has been updated
+[18:46:23] [Client thread/INFO]: [CHAT] [@: Set ForgeDevName's game mode to Survival Mode]
+[18:46:31] [Server thread/INFO]: [@: Set ForgeDevName's game mode to Creative Mode]
+[18:46:32] [Client thread/INFO]: [CHAT] Your game mode has been updated
+[18:46:32] [Client thread/INFO]: [CHAT] [@: Set ForgeDevName's game mode to Creative Mode]
+[18:49:49] [Server thread/INFO]: Saving and pausing game...
+[18:49:49] [Server thread/INFO]: Saving chunks for level 'Item & Block Tests'/Overworld
+[18:49:49] [Server thread/INFO]: Saving chunks for level 'Item & Block Tests'/Nether
+[18:49:49] [Server thread/INFO]: Saving chunks for level 'Item & Block Tests'/The End
+[18:49:50] [Server thread/INFO]: Stopping server
+[18:49:50] [Server thread/INFO]: Saving players
+[18:49:50] [Server thread/INFO]: Saving worlds
+[18:49:50] [Server thread/INFO]: Saving chunks for level 'Item & Block Tests'/Overworld
+[18:49:50] [Server thread/INFO]: Saving chunks for level 'Item & Block Tests'/Nether
+[18:49:50] [Server thread/INFO]: Saving chunks for level 'Item & Block Tests'/The End
+[18:49:52] [Client thread/INFO]: Stopping!

@@ -9,6 +9,8 @@ item.steamcraftrb:electricLamp.name=Electric Lamp
 item.steamcraftrb:etherium.name=Etherium
 item.steamcraftrb:ingotBrass.name=Brass Ingot
 item.steamcraftrb:ingotCastIron.name=Cast Iron Ingot
+item.steamcraftrb:ingotCopper.name=Copper Ingot
+item.steamcraftrb:ingotZinc.name=Zinc Ingot
 item.steamcraftrb:kettle.name=Kettle
 item.steamcraftrb:lightBulb.name=Light Bulb
 item.steamcraftrb:musketCartridge.name=Musket Cartridge
@@ -33,11 +35,14 @@ item.steamcraftrb:kettleHot.name=Hot Kettle
 
 # Blocks
 tile.steamcraftrb:copperOre.name=Copper Ore
+tile.steamcraftrb:zincOre.name=Zinc Ore
 tile.steamcraftrb:etheriumOre.name=Etherium Ore
 tile.steamcraftrb:phosphate.name=Phosphate
 tile.steamcraftrb:etheriumBlock.name=Etherium Block
 tile.steamcraftrb:brassBlock.name=Brass Block
 tile.steamcraftrb:castIronBlock.name=Cast Iron Block
+tile.steamcraftrb:copperBlock.name=Copper Block
+tile.steamcraftrb:zincBlock.name=Zinc Block
 tile.steamcraftrb:steamFurnace.name=Steam Furnace
 
 # TileEntities

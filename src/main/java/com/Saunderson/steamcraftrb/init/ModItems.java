@@ -15,6 +15,8 @@ public class ModItems
     public static final ItemSCRB etherium = new ItemEtherium();
     public static final ItemSCRB ingotBrass = new ItemIngotBrass();
     public static final ItemSCRB ingotCastIron = new ItemIngotCastIron();
+    public static final ItemSCRB ingotCopper = new ItemIngotCopper();
+    public static final ItemSCRB ingotZinc = new ItemIngotZinc();
     public static final ItemSCRB kettle = new ItemKettle();
     public static final ItemSCRB lightBulb = new ItemLightBulb();
     public static final ItemSCRB musketCartridge = new ItemMusketCartridge();
@@ -61,6 +63,8 @@ public class ModItems
         GameRegistry.registerItem(etherium, "etherium");
         GameRegistry.registerItem(ingotBrass, "ingotBrass");
         GameRegistry.registerItem(ingotCastIron, "ingotCastIron");
+        GameRegistry.registerItem(ingotCopper, "ingotCopper");
+        GameRegistry.registerItem(ingotZinc, "ingotZinc");
         GameRegistry.registerItem(kettle, "kettle");
         GameRegistry.registerItem(lightBulb, "lightBulb");
         GameRegistry.registerItem(musketCartridge, "musketCartridge");

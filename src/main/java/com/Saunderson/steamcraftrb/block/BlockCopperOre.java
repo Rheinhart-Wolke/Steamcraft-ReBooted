@@ -1,12 +1,6 @@
 package com.Saunderson.steamcraftrb.block;
 
 
-import com.Saunderson.steamcraftrb.init.ModBlocks;
-import com.Saunderson.steamcraftrb.init.ModItems;
-import net.minecraft.block.Block;
-import net.minecraft.item.Item;
-
-import java.util.Random;
 
 public class BlockCopperOre extends BlockSCRB
 {

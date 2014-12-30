@@ -1,9 +1,7 @@
 package com.Saunderson.steamcraftrb.block;
 
 import com.Saunderson.steamcraftrb.init.ModItems;
-import net.minecraft.init.Items;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemStack;
 
 import java.util.Random;
 
