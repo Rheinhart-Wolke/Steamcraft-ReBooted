@@ -53,6 +53,9 @@ public class ModItems
     public static final ItemEtheriumAxe etheriumAxe = new ItemEtheriumAxe();
     public static final ItemEtheriumShovel etheriumShovel = new ItemEtheriumShovel();
     public static final ItemEtheriumDrill etheriumDrill = new ItemEtheriumDrill();
+    public static final ItemChisel chisel = new ItemChisel();
+    public static final ItemPercussionMusket percussionMusket = new ItemPercussionMusket();
+    public static final ItemPercussionRifle percussionRifle = new ItemPercussionRifle();
 
     public static void init()
     {
@@ -101,5 +104,8 @@ public class ModItems
         GameRegistry.registerItem(steamAxe, "steamAxe");
         GameRegistry.registerItem(steamHoe, "steamHoe");
         GameRegistry.registerItem(steamDrill, "steamDrill");
+        GameRegistry.registerItem(chisel, "chisel");
+        GameRegistry.registerItem(percussionMusket, "percussionMusket");
+        GameRegistry.registerItem(percussionRifle, "percussionRifle");
     }
 }

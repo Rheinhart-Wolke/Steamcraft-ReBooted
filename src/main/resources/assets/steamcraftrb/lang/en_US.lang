@@ -59,9 +59,12 @@ item.steamcraftrb:steamShovel.name=Steam Shovel
 item.steamcraftrb:steamAxe.name=Steam Axe
 item.steamcraftrb:steamHoe.name=Steam Hoe
 item.steamcraftrb:steamDrill.name=Steam Drill
+item.steamcraftrb:chisel.name=Chisel
 
 #Weapons
 item.steamcraftrb:steamSword.name=Steam Sword
 item.steamcraftrb:etheriumSword=Etherium Sword
+item.steamcraftrb:percussionMusket=[WIP] Percussion Musket
+item.steamcraftrb:percussionRifle=[WIP] Percussion Rifle
 
 # Armour
