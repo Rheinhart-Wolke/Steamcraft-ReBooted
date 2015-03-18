@@ -18,7 +18,7 @@ public class Recipes
         GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModItems.steamSword), " x ", " y ", " s ", 'x', new ItemStack(ModItems.ingotBrass), 'y', new ItemStack(ModBlocks.steamFurnace), 's', "stickWood"));
         GameRegistry.addRecipe(new ItemStack(ModItems.percussionMusket), " l ", " b ", " w ", 'l', new ItemStack(ModItems.percussionLock), 'b', new ItemStack(ModItems.smoothBarrel), 'w', new ItemStack(ModItems.woodenStock));
         GameRegistry.addRecipe(new ItemStack(ModItems.percussionRifle), " l ", " b ", " w ", 'l', new ItemStack(ModItems.percussionLock), 'b', new ItemStack(ModItems.rifledBarrel), 'w', new ItemStack(ModItems.woodenStock));
-        
+
 
         // Armour
 

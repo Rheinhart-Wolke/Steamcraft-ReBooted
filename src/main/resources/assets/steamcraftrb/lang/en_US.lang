@@ -5,13 +5,13 @@ itemGroup.steamcraftrb=Steamcraft-ReBooted [WIP]
 item.steamcraftrb:copperDust.name= Copper Dust
 item.steamcraftrb:copperWire.name= Copper Wire
 item.steamcraftrb:drillBase.name=Drill Base
-item.steamcraftrb:electricLamp.name=Electric Lamp
+item.steamcraftrb:electricLamp.name=Electric Lamp [WIP]
 item.steamcraftrb:etherium.name=Etherium
 item.steamcraftrb:ingotBrass.name=Brass Ingot
 item.steamcraftrb:ingotCastIron.name=Cast Iron Ingot
 item.steamcraftrb:ingotCopper.name=Copper Ingot
 item.steamcraftrb:ingotZinc.name=Zinc Ingot
-item.steamcraftrb:kettle.name=Kettle
+item.steamcraftrb:kettle.name=Kettle [WIP]
 item.steamcraftrb:lightBulb.name=Light Bulb
 item.steamcraftrb:musketCartridge.name=Musket Cartridge
 item.steamcraftrb:obsidianSlate.name=Obsidian Slate
@@ -22,16 +22,16 @@ item.steamcraftrb:reactorCore.name=Reactor Core [WIP]
 item.steamcraftrb:rifledBarrel.name=Rifled Barrel
 item.steamcraftrb:smoothBarrel.name=Smooth Barrel
 item.steamcraftrb:sulphur.name=Sulphur
-item.steamcraftrb:teaCupEmpty.name=Empty Teacup
-item.steamcraftrb:teaCupFull.name=Full Teacup
+item.steamcraftrb:teaCupEmpty.name=Empty Teacup [WIP]
+item.steamcraftrb:teaCupFull.name=Full Teacup [WIP]
 item.steamcraftrb:teaLeaves.name=Tea Leaves
-item.steamcraftrb:teaSeeds.name=Tea Seeds
+item.steamcraftrb:teaSeeds.name=Tea Seeds [WIP]
 item.steamcraftrb:uraniumPellet.name= Uranium Pellet
 item.steamcraftrb:uraniumStone.name=Uranium Stone
-item.steamcraftrb:wirelessLamp.name=Wireless Lamp
+item.steamcraftrb:wirelessLamp.name=Wireless Lamp [WIP]
 item.steamcraftrb:woodenStock.name=Wooden Stock
-item.steamcraftrb:kettleCold.name=Cold Kettle
-item.steamcraftrb:kettleHot.name=Hot Kettle
+item.steamcraftrb:kettleCold.name=Cold Kettle [WIP]
+item.steamcraftrb:kettleHot.name=Hot Kettle [WIP]
 
 # Blocks
 tile.steamcraftrb:copperOre.name=Copper Ore
@@ -63,8 +63,8 @@ item.steamcraftrb:chisel.name=Chisel
 
 #Weapons
 item.steamcraftrb:steamSword.name=Steam Sword
-item.steamcraftrb:etheriumSword=Etherium Sword
-item.steamcraftrb:percussionMusket=[WIP] Percussion Musket
-item.steamcraftrb:percussionRifle=[WIP] Percussion Rifle
+item.steamcraftrb:etheriumSword.name=Etherium Sword
+item.steamcraftrb:percussionMusket.name=Percussion Musket [WIP]
+item.steamcraftrb:percussionRifle.name=Percussion Rifle [WIP]
 
 # Armour
