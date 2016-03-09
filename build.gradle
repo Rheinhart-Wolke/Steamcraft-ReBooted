@@ -17,12 +17,18 @@ buildscript {
 
 apply plugin: 'forge'
 
+sourceCompatibility = 1.6
+
 version = "Alpha-1.3"
 group= "com.Saunderson.steamcraftrb" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = "SteamcraftRB"
 
 minecraft {
     version = "1.7.10-10.13.2.1272"
+
+    replaceIn "reference/Reference.java"
+    replace "@VERSION@", project.version
+    replace "@MCVERSION@", project.minecraft.version
 }
 
 dependencies {
